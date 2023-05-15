@@ -1,12 +1,11 @@
-<script setup>
-import Navigation from "~/components/navigation/index.vue"
-
-
+<script lang="ts" setup>
+  import Header from "@/components/molecules/header/index.vue"
+  import Footer from "@/components/molecules/footer/index.vue"
 </script>
-
 <template>
   <div>
-    <Navigation/>
+    <Header/>
     <slot/>
+    <Footer/>
   </div>
 </template>
